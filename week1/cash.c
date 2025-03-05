@@ -30,7 +30,7 @@ int main(void)
 
     // print the total
     int total = change_quarts + change_dimes + change_nickels + change_pennies;
-    printf("%i\nsubmit50 cs50/problems/2025/x/cash", total);
+    printf("%i\n", total);
 }
 
 int get_positive(void)

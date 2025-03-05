@@ -31,8 +31,6 @@ int main(void)
         printf("INVALID\n");
     }
 
-    // checksum Luhn's algorithm
-
 }
 
 long get_positive(void)

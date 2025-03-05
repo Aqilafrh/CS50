@@ -1,0 +1,28 @@
+sort1 uses: Bubble Sort
+How do you know?:
+// performs worst in reversed, better in sorted list
+// omega < big O
+reversed 5000 || real time  = 0m0.072s
+reversed 50000 || real time  = 0m4.812s
+sorted 5000 || real time  = 0m0.073s
+sorted 50000 || real time  = 0m0.533s
+
+
+sort2 uses: Merge Sort
+How do you know?:
+// performs similarly in either reverse or sorted list. quicker in reverse or sorted50000
+// omega similar to big O
+reversed 5000 || real time  =  0m0.028s
+reversed 50000 || real time = 0m0.489s
+sorted 5000 || real time  = 0m0.046s
+sorted 50000 || real time  = 0m0.383s
+
+
+sort3 uses: Selection sort
+How do you know?:
+// Similar result in reverse or sorted list. a bit slow in reverse or sorted50000
+//omega similar to big O
+reversed 5000 || real time  =  0m0.062s
+reversed 50000 || real time = 0m2.606s
+sorted 5000 || real time  = 0m0.073s
+sorted 50000 || real time  = 0m2.476s
